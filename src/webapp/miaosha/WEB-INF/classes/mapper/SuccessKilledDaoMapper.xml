@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="imooc.seckill.dao.SuccessKilledDao">
+	<insert id="insertSuccessKilled" parameterType="Map">
+		insert ignore into SUCCESS_KILLED (seckill_id,user_phone)
+		values (#{seckillId,jdbcType=BIGINT},#{userPhone,jdbcType=VARCHAR})
+	</insert>
+	
+	<select id="querySuccessKilled" parameterType="imooc.seckill.entity.SuccessKilled" resultMap="successKilledResultMap">
+		select
+		<include refid="selectColumn"></include>
+		from SUCCESS_KILLED
+		where seckill_id = #{seckillId,jdbcType=BIGINT}
+	</select>
+	
+	<sql id="selectColumn">
+		seckill_id "seckillId",
+		user_phone "userPhone",
+		create_time "createTime",
+		state "state"
+	</sql>
+	
+	<resultMap type="imooc.seckill.entity.SuccessKilled" id="successKilledResultMap">
+		<id column="seckill_id" property="seckillId" jdbcType="BIGINT"/>
+		<result column="user_phone" property="userPhone" jdbcType="BIGINT"/>
+		<result column="state" property="state" jdbcType="INTEGER"/>
+		<result column="create_time" property="createTime" jdbcType="TIMESTAMP"/>
+		<association property="seckill" resultMap="imooc.seckill.dao.SeckillDao.seckillResultMap"></association>
+	</resultMap>
+</mapper>

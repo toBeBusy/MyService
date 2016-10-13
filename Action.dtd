@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE actions[
+<!ELEMENT action(#PCDATA)>
+<!ATTLIST action id CDATA #REQUIRED>
+<!ATTLIST action class CDATA #REQUIRED>
+<!ATTLIST action method CDATA #REQUIRED>
+]>

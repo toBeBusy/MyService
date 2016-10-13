@@ -491,4 +491,963 @@
  2016-10-12 17:23:42  [ main:246 ] - [ DEBUG ]  enter HttpConnection.readLine()
  2016-10-12 17:23:42  [ main:248 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
  2016-10-12 17:23:42  [ main:248 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:30:51  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:30:51  [ main:20 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@719bc401
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:30:51  [ main:30 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:30:51  [ main:127 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:30:51  [ main:130 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:30:51  [ main:130 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:30:51  [ main:130 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:30:51  [ main:131 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:30:51  [ main:131 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:30:51  [ main:131 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:30:51  [ main:131 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:30:51  [ main:131 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:30:51  [ main:132 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:30:51  [ main:169 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:30:51  [ main:171 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:30:51  [ main:171 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:30:51  [ main:171 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:30:51  [ main:183 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:30:51  [ main:184 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:30:51  [ main:184 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:30:51  [ main:211 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:211 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:211 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:211 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:30:51  [ main:213 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:30:51  [ main:213 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:30:51  [ main:213 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:30:51  [ main:214 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:30:51  [ main:227 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:30:51  [ main:227 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:227 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:227 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:227 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:30:51  [ main:228 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:273 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:30:51  [ main:273 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:30:51  [ main:273 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:30:51  [ main:273 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:30:51  [ main:273 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:30:51  [ main:274 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:30:51  [ main:274 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:30:51  [ main:274 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:30:51  [ main:274 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:30:51  [ main:274 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:30:51  [ main:274 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:30:51  [ main:274 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:30:51  [ main:284 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:30:52  [ main:294 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:30:52  [ main:294 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:30:52  [ main:294 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:30:52  [ main:294 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:30:52  [ main:294 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:34:41  [ main:229886 ] - [ DEBUG ]  Closing the connection.
+ 2016-10-13 09:34:41  [ main:229886 ] - [ DEBUG ]  enter HttpConnection.close()
+ 2016-10-13 09:34:41  [ main:229886 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+ 2016-10-13 09:34:41  [ main:229886 ] - [ DEBUG ]  Method retry handler returned false. Automatic recovery will not be attempted
+ 2016-10-13 09:34:41  [ main:229886 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+ 2016-10-13 09:34:41  [ main:229886 ] - [ DEBUG ]  Releasing connection back to connection manager.
+ 2016-10-13 09:34:53  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:34:53  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:34:53  [ main:10 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:34:53  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:34:53  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:34:53  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4b76ffeb
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:34:53  [ main:20 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:34:53  [ main:101 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:34:53  [ main:134 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:34:53  [ main:136 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:34:53  [ main:136 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:34:53  [ main:136 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:34:53  [ main:162 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:34:53  [ main:162 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:34:53  [ main:162 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:34:53  [ main:182 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:34:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:34:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:192 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:34:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:34:53  [ main:203 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:35:28  [ main:34811 ] - [ DEBUG ]  Closing the connection.
+ 2016-10-13 09:35:28  [ main:34811 ] - [ DEBUG ]  enter HttpConnection.close()
+ 2016-10-13 09:35:28  [ main:34811 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+ 2016-10-13 09:35:28  [ main:34811 ] - [ DEBUG ]  Method retry handler returned false. Automatic recovery will not be attempted
+ 2016-10-13 09:35:28  [ main:34811 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+ 2016-10-13 09:35:28  [ main:34811 ] - [ DEBUG ]  Releasing connection back to connection manager.
+ 2016-10-13 09:35:46  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:35:46  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@719bc401
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:35:46  [ main:10 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:35:46  [ main:100 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:35:46  [ main:102 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:35:46  [ main:102 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:35:46  [ main:103 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:35:46  [ main:103 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:35:46  [ main:103 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:35:46  [ main:103 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:35:46  [ main:103 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:35:46  [ main:103 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:35:46  [ main:103 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:35:46  [ main:152 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:35:46  [ main:152 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:35:46  [ main:152 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:35:46  [ main:152 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:35:46  [ main:162 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:35:46  [ main:162 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:35:46  [ main:162 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:35:46  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:192 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:35:46  [ main:202 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:38:06  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@296157ec
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:38:06  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:38:06  [ main:20 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:38:06  [ main:20 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:38:06  [ main:20 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:38:06  [ main:20 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:38:06  [ main:20 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:38:06  [ main:20 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:38:06  [ main:100 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:38:06  [ main:101 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:38:06  [ main:130 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:38:06  [ main:132 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:38:06  [ main:132 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:38:06  [ main:132 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:38:06  [ main:143 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:38:06  [ main:143 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:38:06  [ main:143 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:38:06  [ main:172 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:38:06  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:38:06  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:182 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:38:06  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:38:06  [ main:203 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:38:06  [ main:203 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:38:06  [ main:203 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:39:50  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4b76ffeb
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:39:50  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:39:50  [ main:20 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:39:50  [ main:20 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:39:50  [ main:20 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:39:50  [ main:20 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:39:50  [ main:20 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:39:50  [ main:20 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:39:50  [ main:100 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:39:50  [ main:101 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:39:50  [ main:130 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:39:50  [ main:132 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:39:50  [ main:132 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:39:50  [ main:132 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:39:50  [ main:152 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:39:50  [ main:152 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:39:50  [ main:152 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:39:50  [ main:172 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:39:50  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:39:50  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:182 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:39:50  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:39:50  [ main:202 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:39:50  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:39:50  [ main:203 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:39:50  [ main:203 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:39:50  [ main:203 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:43:13  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:43:13  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:43:13  [ main:0 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4b76ffeb
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:43:13  [ main:10 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:43:13  [ main:96 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:43:13  [ main:99 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:43:13  [ main:99 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:43:13  [ main:99 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:43:13  [ main:99 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:43:13  [ main:99 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:43:13  [ main:100 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:43:13  [ main:100 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:43:13  [ main:100 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:43:13  [ main:100 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:43:13  [ main:152 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:43:13  [ main:152 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:43:13  [ main:152 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:43:13  [ main:152 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:43:13  [ main:162 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:43:13  [ main:162 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:43:13  [ main:162 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:43:13  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:43:13  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:43:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:43:13  [ main:202 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:43:13  [ main:202 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:43:20  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:43:20  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@4b76ffeb
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:43:20  [ main:10 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:43:20  [ main:103 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:43:20  [ main:106 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:43:20  [ main:106 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:43:20  [ main:106 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:43:20  [ main:106 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:43:20  [ main:106 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:43:20  [ main:106 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:43:20  [ main:106 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:43:20  [ main:107 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:43:20  [ main:107 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:43:20  [ main:152 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:43:20  [ main:162 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:43:20  [ main:162 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:43:20  [ main:162 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:43:20  [ main:172 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:43:20  [ main:172 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:43:20  [ main:172 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:43:20  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:182 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:43:20  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:43:20  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:212 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:43:20  [ main:212 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:43:20  [ main:212 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:43:20  [ main:212 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 09:47:52  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 09:47:52  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 09:47:52  [ main:0 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@296157ec
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 09:47:52  [ main:10 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 09:47:53  [ main:90 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 09:47:53  [ main:91 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 09:47:53  [ main:125 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 09:47:53  [ main:126 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 09:47:53  [ main:126 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 09:47:53  [ main:126 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 09:47:53  [ main:152 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 09:47:53  [ main:152 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 09:47:53  [ main:152 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:47:53  [ main:172 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:47:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 09:47:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:192 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 09:47:53  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 09:47:53  [ main:202 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 09:47:53  [ main:212 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 09:47:53  [ main:212 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 10:19:03  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 10:19:03  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 10:19:03  [ main:10 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 10:19:03  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 10:19:03  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 10:19:03  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 10:19:03  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@296157ec
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 10:19:03  [ main:20 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 10:19:03  [ main:124 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 10:19:03  [ main:125 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 10:19:03  [ main:126 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 10:19:03  [ main:126 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 10:19:03  [ main:126 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 10:19:03  [ main:126 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 10:19:03  [ main:126 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 10:19:03  [ main:127 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 10:19:03  [ main:127 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 10:19:03  [ main:127 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 10:19:03  [ main:162 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 10:19:03  [ main:162 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 10:19:03  [ main:162 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 10:19:03  [ main:162 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 10:19:03  [ main:172 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 10:19:03  [ main:172 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 10:19:03  [ main:172 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:19:03  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:19:03  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 10:19:03  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:202 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 10:19:03  [ main:202 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 10:19:03  [ main:222 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 10:19:33  [ main:29269 ] - [ DEBUG ]  Closing the connection.
+ 2016-10-13 10:19:33  [ main:29279 ] - [ DEBUG ]  enter HttpConnection.close()
+ 2016-10-13 10:19:33  [ main:29279 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+ 2016-10-13 10:19:33  [ main:29279 ] - [ DEBUG ]  Method retry handler returned false. Automatic recovery will not be attempted
+ 2016-10-13 10:19:33  [ main:29279 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+ 2016-10-13 10:19:33  [ main:29279 ] - [ DEBUG ]  Releasing connection back to connection manager.
+ 2016-10-13 10:26:18  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 10:26:18  [ main:4 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 10:26:18  [ main:10 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 10:26:18  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 10:26:18  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 10:26:18  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 10:26:18  [ main:12 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@719bc401
+ 2016-10-13 10:26:18  [ main:12 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 10:26:18  [ main:13 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 10:26:18  [ main:14 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 10:26:18  [ main:14 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 10:26:18  [ main:15 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+ 2016-10-13 10:26:18  [ main:15 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 10:26:18  [ main:15 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 10:26:18  [ main:15 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 10:26:18  [ main:132 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 10:26:18  [ main:134 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 10:26:18  [ main:135 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 10:26:18  [ main:135 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 10:26:18  [ main:135 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 10:26:18  [ main:135 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 10:26:18  [ main:135 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 10:26:18  [ main:135 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 10:26:18  [ main:135 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 10:26:18  [ main:136 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 10:26:18  [ main:169 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 10:26:18  [ main:171 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 10:26:18  [ main:171 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 10:26:18  [ main:171 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 10:26:18  [ main:182 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 10:26:18  [ main:182 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 10:26:18  [ main:182 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 10:26:18  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:204 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:204 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 10:26:18  [ main:207 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 10:26:18  [ main:208 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:26:18  [ main:208 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:26:18  [ main:208 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:26:18  [ main:208 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 10:26:18  [ main:208 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:208 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:210 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:210 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 10:26:18  [ main:210 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:228 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 10:26:18  [ main:228 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 10:26:18  [ main:228 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:228 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 10:26:18  [ main:229 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:26:18  [ main:229 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:26:18  [ main:229 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:26:18  [ main:229 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 10:26:18  [ main:229 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:26:18  [ main:229 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:26:18  [ main:230 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:26:18  [ main:231 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 10:26:18  [ main:231 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 10:26:18  [ main:231 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:26:18  [ main:232 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:26:18  [ main:233 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 10:26:18  [ main:235 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 10:26:18  [ main:235 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 10:26:18  [ main:235 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 10:26:18  [ main:235 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 10:26:18  [ main:236 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:236 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 10:26:18  [ main:236 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 10:26:18  [ main:239 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 10:26:18  [ main:239 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 13:41:40  [ main:11722843 ] - [ DEBUG ]  Closing the connection.
+ 2016-10-13 13:41:40  [ main:11722843 ] - [ DEBUG ]  enter HttpConnection.close()
+ 2016-10-13 13:41:40  [ main:11722843 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+ 2016-10-13 13:41:40  [ main:11722866 ] - [ DEBUG ]  Method retry handler returned false. Automatic recovery will not be attempted
+ 2016-10-13 13:41:40  [ main:11722866 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+ 2016-10-13 13:41:40  [ main:11722866 ] - [ DEBUG ]  Releasing connection back to connection manager.
+ 2016-10-13 13:41:55  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 13:41:55  [ main:5 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 13:41:55  [ main:8 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 13:41:55  [ main:9 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 13:41:55  [ main:9 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 13:41:55  [ main:9 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 13:41:55  [ main:18 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@738e7a09
+ 2016-10-13 13:41:55  [ main:18 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 13:41:55  [ main:19 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 13:41:55  [ main:20 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 13:41:55  [ main:20 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 13:41:55  [ main:20 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;F:\m2\Repository\commons-io\commons-io\2.4\commons-io-2.4.jar;F:\m2\Repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar
+ 2016-10-13 13:41:55  [ main:21 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 13:41:55  [ main:21 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 13:41:55  [ main:21 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 13:41:55  [ main:138 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 13:41:55  [ main:140 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 13:41:55  [ main:140 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 13:41:55  [ main:141 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 13:41:55  [ main:141 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 13:41:55  [ main:141 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 13:41:55  [ main:141 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 13:41:55  [ main:141 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 13:41:55  [ main:142 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 13:41:55  [ main:142 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 13:41:55  [ main:173 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 13:41:55  [ main:175 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 13:41:55  [ main:176 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 13:41:55  [ main:176 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 13:41:55  [ main:186 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 13:41:55  [ main:186 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 13:41:55  [ main:186 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 13:41:55  [ main:207 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:208 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:208 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:208 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 13:41:55  [ main:211 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 13:41:55  [ main:211 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:41:55  [ main:214 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:41:55  [ main:215 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:41:55  [ main:215 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 13:41:55  [ main:215 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:215 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:215 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:216 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 13:41:55  [ main:216 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:231 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 13:41:55  [ main:231 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 13:41:55  [ main:232 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:232 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 13:41:55  [ main:232 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:41:55  [ main:232 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:41:55  [ main:232 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:41:55  [ main:233 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:41:55  [ main:234 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 13:41:55  [ main:234 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:41:55  [ main:234 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:41:55  [ main:234 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 13:41:55  [ main:234 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 13:41:55  [ main:235 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:235 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 13:41:55  [ main:235 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 13:41:55  [ main:237 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 13:41:55  [ main:237 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 13:43:23  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 13:43:23  [ main:4 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 13:43:23  [ main:9 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 13:43:23  [ main:9 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 13:43:23  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 13:43:23  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 13:43:23  [ main:18 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@738e7a09
+ 2016-10-13 13:43:23  [ main:20 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 13:43:23  [ main:20 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 13:43:23  [ main:22 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 13:43:23  [ main:22 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 13:43:23  [ main:23 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;F:\m2\Repository\commons-io\commons-io\2.4\commons-io-2.4.jar;F:\m2\Repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar
+ 2016-10-13 13:43:23  [ main:23 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 13:43:23  [ main:23 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 13:43:23  [ main:24 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 13:43:23  [ main:142 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 13:43:23  [ main:144 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 13:43:23  [ main:144 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 13:43:23  [ main:144 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 13:43:23  [ main:145 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 13:43:23  [ main:145 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 13:43:23  [ main:145 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 13:43:23  [ main:145 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 13:43:23  [ main:145 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 13:43:23  [ main:145 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 13:43:23  [ main:191 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 13:43:23  [ main:193 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 13:43:23  [ main:193 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 13:43:23  [ main:193 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 13:43:23  [ main:204 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 13:43:23  [ main:205 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 13:43:23  [ main:205 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 13:43:23  [ main:220 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:220 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:221 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:221 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 13:43:23  [ main:223 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 13:43:23  [ main:223 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:43:23  [ main:237 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:43:23  [ main:238 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:43:23  [ main:238 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 13:43:23  [ main:238 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:238 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:238 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:239 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 13:43:23  [ main:239 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:255 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 13:43:23  [ main:255 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 13:43:23  [ main:255 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:256 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 13:43:23  [ main:256 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:43:23  [ main:256 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:43:23  [ main:257 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:43:23  [ main:257 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 13:43:23  [ main:257 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:43:23  [ main:257 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:43:23  [ main:257 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:43:23  [ main:258 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 13:43:23  [ main:258 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:43:23  [ main:258 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:43:23  [ main:258 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:43:23  [ main:258 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 13:43:23  [ main:258 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:43:23  [ main:259 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:43:23  [ main:259 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 13:43:23  [ main:259 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 13:43:23  [ main:259 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:260 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 13:43:23  [ main:260 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 13:43:23  [ main:262 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 13:43:23  [ main:262 ] - [ DEBUG ]  enter HttpParser.readRawLine()
+ 2016-10-13 13:44:58  [ main:95517 ] - [ DEBUG ]  Closing the connection.
+ 2016-10-13 13:44:58  [ main:95517 ] - [ DEBUG ]  enter HttpConnection.close()
+ 2016-10-13 13:44:58  [ main:95517 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+ 2016-10-13 13:44:58  [ main:95517 ] - [ DEBUG ]  Method retry handler returned false. Automatic recovery will not be attempted
+ 2016-10-13 13:44:58  [ main:95517 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+ 2016-10-13 13:44:58  [ main:95517 ] - [ DEBUG ]  Releasing connection back to connection manager.
+ 2016-10-13 13:44:58  [ main:183280 ] - [ DEBUG ]  Closing the connection.
+ 2016-10-13 13:44:58  [ main:183280 ] - [ DEBUG ]  enter HttpConnection.close()
+ 2016-10-13 13:44:58  [ main:183280 ] - [ DEBUG ]  enter HttpConnection.closeSockedAndStreams()
+ 2016-10-13 13:44:58  [ main:183280 ] - [ DEBUG ]  Method retry handler returned false. Automatic recovery will not be attempted
+ 2016-10-13 13:44:58  [ main:183280 ] - [ DEBUG ]  enter HttpConnection.releaseConnection()
+ 2016-10-13 13:44:58  [ main:183280 ] - [ DEBUG ]  Releasing connection back to connection manager.
+ 2016-10-13 13:45:13  [ main:0 ] - [ DEBUG ]  Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ 2016-10-13 13:45:13  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.version = HTTP/1.1
+ 2016-10-13 13:45:13  [ main:0 ] - [ DEBUG ]  Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ 2016-10-13 13:45:13  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.cookie-policy = default
+ 2016-10-13 13:45:13  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.element-charset = US-ASCII
+ 2016-10-13 13:45:13  [ main:0 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = ISO-8859-1
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@eee2024
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Set parameter http.protocol.content-charset = UTF-8
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Java version: 1.7.0_17
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Java vendor: Oracle Corporation
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Java class path: F:\testWorkspace\MyService\target\test-classes;F:\testWorkspace\MyService\target\classes;F:\m2\Repository\junit\junit\3.8.1\junit-3.8.1.jar;F:\m2\Repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\m2\Repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\m2\Repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;F:\m2\Repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;F:\m2\Repository\commons-io\commons-io\2.4\commons-io-2.4.jar;F:\m2\Repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Operating system name: Windows 7
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Operating system architecture: amd64
+ 2016-10-13 13:45:13  [ main:10 ] - [ DEBUG ]  Operating system version: 6.1
+ 2016-10-13 13:45:13  [ main:131 ] - [ DEBUG ]  SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ 2016-10-13 13:45:13  [ main:133 ] - [ DEBUG ]  SunRsaSign 1.7: Sun RSA signature provider
+ 2016-10-13 13:45:13  [ main:133 ] - [ DEBUG ]  SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+ 2016-10-13 13:45:13  [ main:133 ] - [ DEBUG ]  SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ 2016-10-13 13:45:13  [ main:133 ] - [ DEBUG ]  SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ 2016-10-13 13:45:13  [ main:133 ] - [ DEBUG ]  SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+ 2016-10-13 13:45:13  [ main:133 ] - [ DEBUG ]  SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+ 2016-10-13 13:45:13  [ main:134 ] - [ DEBUG ]  XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ 2016-10-13 13:45:13  [ main:134 ] - [ DEBUG ]  SunPCSC 1.7: Sun PC/SC provider
+ 2016-10-13 13:45:13  [ main:134 ] - [ DEBUG ]  SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+ 2016-10-13 13:45:13  [ main:162 ] - [ DEBUG ]  enter GetMethod(String)
+ 2016-10-13 13:45:13  [ main:162 ] - [ DEBUG ]  HttpMethodBase.addRequestHeader(Header)
+ 2016-10-13 13:45:13  [ main:162 ] - [ DEBUG ]  enter HttpClient.executeMethod(HttpMethod)
+ 2016-10-13 13:45:13  [ main:162 ] - [ DEBUG ]  enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+ 2016-10-13 13:45:13  [ main:172 ] - [ DEBUG ]  Attempt number 1 to process request
+ 2016-10-13 13:45:13  [ main:172 ] - [ DEBUG ]  enter HttpConnection.open()
+ 2016-10-13 13:45:13  [ main:172 ] - [ DEBUG ]  Open connection to localhost:9090
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.execute(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  >> "GET /ok HTTP/1.1[\r][\n]"
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:192 ] - [ DEBUG ]  enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:203 ] - [ DEBUG ]  Adding Host request header
+ 2016-10-13 13:45:13  [ main:203 ] - [ DEBUG ]  enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:215 ] - [ DEBUG ]  enter HttpState.getCookies()
+ 2016-10-13 13:45:13  [ main:216 ] - [ DEBUG ]  enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+ 2016-10-13 13:45:13  [ main:216 ] - [ DEBUG ]  enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:216 ] - [ DEBUG ]  >> "aaa: [0xe8][0x83][0xbd][0xe4][0xb8][0x8d][0xe8][0x83][0xbd][0xe8][0xa1][0x8c][0xe5][0x95][0x8a][\r][\n]"
+ 2016-10-13 13:45:13  [ main:216 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:45:13  [ main:216 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:45:13  [ main:217 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:45:13  [ main:217 ] - [ DEBUG ]  >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+ 2016-10-13 13:45:13  [ main:217 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:45:13  [ main:217 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:45:13  [ main:217 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:45:13  [ main:217 ] - [ DEBUG ]  >> "Host: localhost:9090[\r][\n]"
+ 2016-10-13 13:45:13  [ main:217 ] - [ DEBUG ]  enter HttpConnection.print(String)
+ 2016-10-13 13:45:13  [ main:218 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:45:13  [ main:218 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:45:13  [ main:218 ] - [ DEBUG ]  enter HttpConnection.writeLine()
+ 2016-10-13 13:45:13  [ main:218 ] - [ DEBUG ]  enter HttpConnection.write(byte[])
+ 2016-10-13 13:45:13  [ main:219 ] - [ DEBUG ]  enter HttpConnection.write(byte[], int, int)
+ 2016-10-13 13:45:13  [ main:219 ] - [ DEBUG ]  >> "[\r][\n]"
+ 2016-10-13 13:45:13  [ main:219 ] - [ DEBUG ]  enter HttpConnection.flushRequestOutputStream()
+ 2016-10-13 13:45:13  [ main:219 ] - [ DEBUG ]  enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:219 ] - [ DEBUG ]  enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+ 2016-10-13 13:45:13  [ main:220 ] - [ DEBUG ]  enter HttpConnection.readLine()
+ 2016-10-13 13:45:13  [ main:224 ] - [ DEBUG ]  enter HttpParser.readLine(InputStream, String)
+ 2016-10-13 13:45:13  [ main:224 ] - [ DEBUG ]  enter HttpParser.readRawLine()
  

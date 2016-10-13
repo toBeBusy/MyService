@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx.xsd">
+	<!-- 扫描service包下所有使用的注解的类型 -->
+	
+	<bean id="seckillService" class="imooc.seckill.service.impl.SeckillServiceImpl">
+	</bean>
+	
+	<!-- UserService另配 -->
+	<bean id="userService" class="imooc.seckill.service.impl.UserServiceImpl">
+		<property name="userCache" ref="userCache"></property>
+	</bean>
+	
+	<bean id="userRedisProvider" class="imooc.seckill.redis.provider.impl.UserRedisProvider"></bean>
+	
+	<bean id="userCache" class="imooc.seckill.cache.UserCache">
+		<property name="redisProvider" ref="userRedisProvider"></property>
+	</bean>
+	
+	<!-- 配置声明式事务管理 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+	<bean id="baseReader" class="imooc.seckill.redis.BaseRedisReader">
+		<property name="jedisPool" ref="jedisPool"></property>
+	</bean>
+ 
+ 	<bean name="jedisPool" class="redis.clients.jedis.JedisPool"></bean>
+	
+	<!-- 配置基于注解的声明式事务 -->
+	<tx:annotation-driven transaction-manager="transactionManager" />
+</beans>
